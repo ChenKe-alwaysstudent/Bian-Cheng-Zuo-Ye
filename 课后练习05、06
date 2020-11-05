@@ -33,6 +33,20 @@ ls(envir = multiples_of_pi_environment)
 ls.str(envir = multiples_of_pi_environment)
 
 #练习6-2
-
+F<-function(x){if(is.finite(x)==FALSE)
+  return(NA)
+  else{
+    if(x%%2==0)return(TRUE)
+    else{
+      return(FALSE)}
+  }
+}
+F(1)
+F(2)
+F(0)
+F(-1)
+F(-2)
+F(Inf)
 
 #练习6-3
+#不会
